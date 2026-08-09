@@ -20,6 +20,12 @@ const Work = () => {
     let padding: number =
       parseInt(window.getComputedStyle(box[0]).padding) / 2;
     translateX = rect.width * box.length - (rectLeft + parentWidth) + padding;
+    // Guard: if there aren't enough cards to fill the viewport, there's no
+    // meaningful horizontal distance to scroll through — skip pinning
+    // instead of creating a near-zero/negative scroll animation.
+    if (translateX < 100) {
+      translateX = 0;
+    }
   }
 
   setTranslateX();
@@ -79,6 +85,12 @@ const Work = () => {
               category: "Web Design & Development",
               tools: "React.js",
             },
+            {
+              name: "More on GitHub",
+              category: "Explore all repositories",
+              tools: "",
+              link: "https://github.com/Nitish204",
+            },
           ].map((project, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
@@ -90,10 +102,18 @@ const Work = () => {
                     <p>{project.category}</p>
                   </div>
                 </div>
-                <h4>Tools and features</h4>
-                <p>{project.tools}</p>
+                {project.tools && (
+                  <>
+                    <h4>Tools and features</h4>
+                    <p>{project.tools}</p>
+                  </>
+                )}
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage
+                image="/images/placeholder.webp"
+                alt=""
+                link={project.link}
+              />
             </div>
           ))}
         </div>
