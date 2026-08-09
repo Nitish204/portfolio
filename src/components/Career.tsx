@@ -15,43 +15,41 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Python Programming</h4>
+                <h5>Infosys Springboard</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>Cert</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Completed a certification covering Python fundamentals through
+              applied programming practices.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Java Programming</h4>
+                <h5>Infosys Springboard</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>Cert</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Completed a certification covering core Java and
+              object-oriented programming concepts.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>B.Tech, Computer Science & Engineering</h4>
+                <h5>Aurora's Technological and Research Institute</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Pursuing a B.Tech in Computer Science & Engineering (2022–2026)
+              with a CGPA of 7.5, while building full-stack and AI/ML
+              projects alongside coursework.
             </p>
           </div>
         </div>
