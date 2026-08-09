@@ -131,7 +131,7 @@ For official GSAP Club plugins, refer to the [GSAP installation docs](https://gs
 - 📧 Email: [nanivish234@gmail.com](mailto:nanivish234@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/vishwakarmanitish](https://linkedin.com/in/vishwakarmanitish)
 - 🐙 GitHub: [@Nitish204](https://github.com/Nitish204)
-- 🌐 Portfolio: [stately-lollipop-ef4fe0.netlify.app](https://stately-lollipop-ef4fe0.netlify.app/)
+- 🌐 Portfolio: [portfolio-five-mu-m9kl443jln.vercel.app](https://portfolio-five-mu-m9kl443jln.vercel.app/)
 
 ---
 
