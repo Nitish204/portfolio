@@ -11,7 +11,7 @@
 [![GSAP](https://img.shields.io/badge/GSAP-Animations-88CE02?logo=greensock&logoColor=white)](https://gsap.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](#-license)
 
-[Live Demo](https://stately-lollipop-ef4fe0.netlify.app/) · [Report Bug](../../issues) · [Request Feature](../../issues)
+[Live Demo](https://portfolio-five-mu-m9kl443jln.vercel.app/) · [Report Bug](../../issues) · [Request Feature](../../issues)
 
 </div>
 
